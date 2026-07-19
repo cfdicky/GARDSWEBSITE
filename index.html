@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#2563EB" />
+
+    <!-- Primary SEO -->
+    <title>Gards Creative — Creative Ideas. Digital Solutions.</title>
+    <meta
+      name="description"
+      content="Gards Creative adalah studio kreatif yang menyediakan layanan Branding, Website Development, UI/UX Design, Social Media Design, Content Creation, Motion Graphics, Photography, Videography, dan Digital Marketing."
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://www.gardscreative.com/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Gards Creative" />
+    <meta property="og:title" content="Gards Creative — Creative Ideas. Digital Solutions." />
+    <meta
+      property="og:description"
+      content="Studio kreatif untuk Branding, Website, UI/UX, Social Media, dan Digital Marketing yang membangun identitas digital bisnis Anda."
+    />
+    <meta property="og:image" content="/og-image.jpg" />
+    <meta property="og:url" content="https://www.gardscreative.com/" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Gards Creative — Creative Ideas. Digital Solutions." />
+    <meta
+      name="twitter:description"
+      content="Studio kreatif untuk Branding, Website, UI/UX, Social Media, dan Digital Marketing."
+    />
+    <meta name="twitter:image" content="/og-image.jpg" />
+
+    <!-- Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Prevent dark-mode flash: read saved preference before paint -->
+    <script>
+      (function () {
+        try {
+          var theme = localStorage.getItem('gc-theme')
+          if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark')
+          }
+        } catch (e) {}
+      })()
+    </script>
+  </head>
+  <body class="bg-light dark:bg-ink-900">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

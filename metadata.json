@@ -1,0 +1,8 @@
+{
+  "name": "Gards Creative",
+  "description": "Gards Creative adalah studio kreatif yang menyediakan layanan Branding, Website Development, UI/UX Design, Social Media Design, Content Creation, Motion Graphics, Photography, Videography, dan Digital Marketing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
