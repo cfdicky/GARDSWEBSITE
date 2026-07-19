@@ -83,7 +83,7 @@ export default function AboutPage() {
                     onError={(e) => {
                       e.currentTarget.src = `https://i.pravatar.cc/300?u=${member.name}`
                     }}
-                    className="h-full w-full object-cover"
+                    className="h-full w-full object-cover object-top"
                   />
                 </div>
                 <h3 className="mt-4 font-semibold text-ink-900 dark:text-white">{member.name}</h3>

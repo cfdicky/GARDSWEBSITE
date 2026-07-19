@@ -92,9 +92,10 @@ export const about = {
     { title: 'Growth Mindset', description: 'Kami mengukur keberhasilan dari dampaknya terhadap pertumbuhan klien.' },
   ],
   team: [
-    { name: 'Dito Aditya', role: 'Founder & Creative Director', photo: '/src/assets/images/gards_founder_1784460038262.jpg' },
-    { name: 'Nadia Putri', role: 'Lead UI/UX Designer', photo: '/images/team/team-2.jpg' },
-    { name: 'Bima Saputra', role: 'Frontend Developer', photo: '/images/team/team-3.jpg' },
-    { name: 'Clara Winata', role: 'Motion & Content Lead', photo: '/images/team/team-4.jpg' },
+    { name: 'Awang Safriski', role: 'As Gambler', photo: '/images/team/team-1.jpg' },
+    { name: 'Gio Marselino', role: 'As Silencer', photo: '/images/team/team-2.jpg' },
+    { name: 'Rizki Tri Pinasti', role: 'As Sinte Followers', photo: '/images/team/team-3.jpg' },
+    { name: 'Arkana Rayhan', role: 'As FAPPERS', photo: '/images/team/team-4.jpg' },
+    { name: 'Dicky Kusuma', role: 'As Human', photo: '/images/team/team-5.jpg' },
   ],
 }
